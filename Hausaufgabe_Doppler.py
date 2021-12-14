@@ -38,14 +38,3 @@ def Anregungswelle(sig,T, title='',mitOrig='no'):
         plt.title(title)
         plt.plot(t,sig)
         plt.show() 
-        
-    
-
-    
-    
-   
-        
-        
-        
-    
-   
