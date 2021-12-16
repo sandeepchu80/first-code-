@@ -1,9 +1,5 @@
 from Hausaufgabe_Herr_Schie import *
 
-
-
-
-
 #sig = uSig
 Anregungswelle (uSig, T, 'Anregungswelle des Wandlers')
 
