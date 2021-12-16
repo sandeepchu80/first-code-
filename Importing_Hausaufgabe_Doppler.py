@@ -1,4 +1,4 @@
-from Hausaufgabe_Schie import *
+from Hausaufgabe_Herr_Schie import *
 
 
 
