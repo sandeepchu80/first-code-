@@ -26,8 +26,8 @@ mix = bs*np.sin(2*np.pi*ft*t)
 def Anregungswelle(sig,T, title='',mitOrig='no'):
     fourier=np.fft.rfft(sig)
     ampli=np.abs(fourier)
-#    anzahlFrequenzen=len(ampli)
-#    print(anzahlFrequenzen)
+    '''anzahlFrequenzen=len(ampli)
+    print(anzahlFrequenzen)'''
     xWerteFreq=np.linspace(0, 1/(2*T), N//2 +1)
     
     if mitOrig == 'yes':
@@ -45,7 +45,22 @@ def Anregungswelle(sig,T, title='',mitOrig='no'):
         plt.plot(t,sig)
         plt.show() 
 
-Teil 2 " "
+Teil 2 "Importing_Hausaufgabe_Doppler.py"
+from Hausaufgabe_Herr_Schie import *
+
+'''sig = uSig'''
+Anregungswelle (uSig, T, 'Anregungswelle des Wandlers')
+
+
+'''sig = zss'''
+Anregungswelle (zss, T, 'zurückkommende signal von stationärer quelle')
+
+'''sig = bs'''
+Anregungswelle (bs, T, 'dopplersignal: zurückkommende signal von beweglicher quelle')
+
+
+'''sig = mix'''
+Anregungswelle (mix, T, 'Gemischte Signal von Detektor', mitOrig='yes')
 
 
 
