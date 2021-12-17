@@ -7,7 +7,6 @@ Teil 1 "Hausaufgabe_Doppler.py"
 import numpy as np
 import matplotlib.pyplot as plt
 
-
 E = 1
 N = 10000
 ft = 1
@@ -26,8 +25,6 @@ mix = bs*np.sin(2*np.pi*ft*t)
 def Anregungswelle(sig,T, title='',mitOrig='no'):
     fourier=np.fft.rfft(sig)
     ampli=np.abs(fourier)
-    '''anzahlFrequenzen=len(ampli)
-    print(anzahlFrequenzen)'''
     xWerteFreq=np.linspace(0, 1/(2*T), N//2 +1)
     
     if mitOrig == 'yes':
