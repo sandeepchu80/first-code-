@@ -1,5 +1,5 @@
 # Dopplersignal
-In dieser Hausaufgabe wurde die Anregungswelle des Wandlers gezeigt sowie die Dopplersignale.
+In dieser Hausaufgabe wurde die Anregungswelle des Wandlers sowie verschiedene Dopplersignale angezeigt.
 Zuerst wurde den Haupt-Code als eine Python-Datei geschrieben unter der Name "Hausaufgabe_Doppler.py" und von dieser Datei wurde alle module in eine andere Python-Datei nämlich "Importing_Hausaufgabe_Doppler.py" importiert.
 
 
