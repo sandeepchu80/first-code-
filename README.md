@@ -3,7 +3,7 @@ In dieser Hausaufgabe wurde die Anregungswelle des Wandlers sowie verschiedene D
 Zuerst wurde den Haupt-Code als eine Python-Datei geschrieben unter der Name "Hausaufgabe_Doppler.py" und von dieser Datei wurde alle module in eine andere Python-Datei nämlich "Importing_Hausaufgabe_Doppler.py" importiert.
 
 
-![](Bilder Dopplersignale/Anregungswelle des Wandlers.png)
+![](Bilder%20Dopplersignale/Anregungswelle%20des%20Wandlers.png)
 
 
 ## Plot der Anregungswelle
